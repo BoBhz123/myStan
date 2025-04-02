@@ -1,0 +1,68 @@
+﻿  Admin.cpp
+C:\Users\barho\Desktop\AP_403_02\myStan\myStan\Student.h(9,23): error C2061: syntax error: identifier 'Course'
+  (compiling source file 'Admin.cpp')
+  
+C:\Users\barho\Desktop\AP_403_02\myStan\myStan\Student.h(10,21): error C2061: syntax error: identifier 'Course'
+  (compiling source file 'Admin.cpp')
+  
+C:\Users\barho\Desktop\AP_403_02\myStan\myStan\Admin.cpp(9,20): error C2662: 'json User::toJSON(void)': cannot convert 'this' pointer from 'const Admin' to 'User &'
+      C:\Users\barho\Desktop\AP_403_02\myStan\myStan\Admin.cpp(9,20):
+      Conversion loses qualifiers
+      C:\Users\barho\Desktop\AP_403_02\myStan\myStan\User.h(15,10):
+      see declaration of 'User::toJSON'
+      C:\Users\barho\Desktop\AP_403_02\myStan\myStan\Admin.cpp(9,20):
+      while trying to match the argument list '()'
+  
+  Course.cpp
+C:\Users\barho\Desktop\AP_403_02\myStan\myStan\Student.h(9,23): error C2061: syntax error: identifier 'Course'
+  (compiling source file 'Course.cpp')
+  
+C:\Users\barho\Desktop\AP_403_02\myStan\myStan\Student.h(10,21): error C2061: syntax error: identifier 'Course'
+  (compiling source file 'Course.cpp')
+  
+C:\Users\barho\Desktop\AP_403_02\myStan\myStan\Course.cpp(4,1): error C2512: 'Instructor': no appropriate default constructor available
+      C:\Users\barho\Desktop\AP_403_02\myStan\myStan\Instructor.h(5,7):
+      see declaration of 'Instructor'
+  
+  Homework.cpp
+C:\Users\barho\Desktop\AP_403_02\myStan\myStan\Student.h(9,23): error C2061: syntax error: identifier 'Course'
+  (compiling source file 'Homework.cpp')
+  
+C:\Users\barho\Desktop\AP_403_02\myStan\myStan\Student.h(10,21): error C2061: syntax error: identifier 'Course'
+  (compiling source file 'Homework.cpp')
+  
+C:\Users\barho\Desktop\AP_403_02\myStan\myStan\Student.h(13,25): error C2061: syntax error: identifier 'Instructor'
+  (compiling source file 'Homework.cpp')
+  
+  Instructor.cpp
+C:\Users\barho\Desktop\AP_403_02\myStan\myStan\Student.h(9,23): error C2061: syntax error: identifier 'Course'
+  (compiling source file 'Instructor.cpp')
+  
+C:\Users\barho\Desktop\AP_403_02\myStan\myStan\Student.h(10,21): error C2061: syntax error: identifier 'Course'
+  (compiling source file 'Instructor.cpp')
+  
+C:\Users\barho\Desktop\AP_403_02\myStan\myStan\Student.h(13,25): error C2061: syntax error: identifier 'Instructor'
+  (compiling source file 'Instructor.cpp')
+  
+C:\Users\barho\Desktop\AP_403_02\myStan\myStan\Course.h(12,16): error C3646: 'instructor': unknown override specifier
+  (compiling source file 'Instructor.cpp')
+  
+C:\Users\barho\Desktop\AP_403_02\myStan\myStan\Course.h(12,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Instructor.cpp')
+  
+C:\Users\barho\Desktop\AP_403_02\myStan\myStan\Course.h(17,34): error C2061: syntax error: identifier 'Instructor'
+  (compiling source file 'Instructor.cpp')
+  
+  myStan.cpp
+  Student.cpp
+C:\Users\barho\Desktop\AP_403_02\myStan\myStan\Student.h(9,23): error C2061: syntax error: identifier 'Course'
+  (compiling source file 'Student.cpp')
+  
+C:\Users\barho\Desktop\AP_403_02\myStan\myStan\Student.h(10,21): error C2061: syntax error: identifier 'Course'
+  (compiling source file 'Student.cpp')
+  
+C:\Users\barho\Desktop\AP_403_02\myStan\myStan\Student.h(13,25): error C2061: syntax error: identifier 'Instructor'
+  (compiling source file 'Student.cpp')
+  
+  User.cpp
+  Generating Code...

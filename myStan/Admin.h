@@ -5,7 +5,8 @@ class Admin :
     public User
 {
 public:
-    Admin(int id, string name, string email);
+    Admin(int id, string name,string password);
+    json toJSON();
     void createCourse(Course& course);
     void updateCourse(Course& course);
     void deleteCourse(Course& course);

@@ -6,20 +6,25 @@
 class Course
 {
 private:
-    int courseID;
-    string title;
+    int course_id;
+    string course_name;
+    int instructor_id;
     int capacity;
-    Instructor instructor;
-    vector<Student> students;
-    vector<string> announcements;
-    vector<Homework> homeworks;
+    vector<int> student_ids;
+    vector<int> grades;
+    vector <string>announcements;
+    vector <string>homeworks;
 public:
-    Course(int id, string title, Instructor instructor, int capacity);
-    void addStudent(Student& student);
-    void removeStudent(Student& student);
-    void updateDetails();
+    Course(int id, string name, int insid, int capacity);
+    json toJSON();
+    static Course fromJSON(const json& j);
+    static json loadCourses();  // Read courses.json
+    static void saveCourses(const json& j);
+    void addStudent(int);
+    void removeStudent(int);
+    void updateDetails(string newName, int newInstructorID, int newCapacity);
     void getStatistics();
     void postAnnouncement(string announcement);
-    void addHomework(Homework& homework);
+    void addHomework(string homework);
 };
 

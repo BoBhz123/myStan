@@ -1,17 +1,15 @@
-#pragma once
+
 #include <string>
 #include <map>
-#include "Student.h"
+#include <nlohmann/json.hpp>
+using namespace std;
+using json = nlohmann::json;
 
 class Homework {
-private:
-    int homeworkID;
-    string title;
-    string description;
-    string dueDate;
-    map<Student, int> grades;
 public:
-    Homework(int id, string title, string description, string dueDate);
-    void assignGrade(Student& student, int grade);
-    void getGrades();
+    int homework_id;
+    int course_id;
+    string description;
+    map<int, string> submissions;
+    map<int, int> grades;
 };

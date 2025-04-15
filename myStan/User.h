@@ -1,26 +1,22 @@
-#pragma once
-#include <iostream> 
 #include <string>
-#include <fstream>
 #include <nlohmann/json.hpp>
+#include <iostream>
+using namespace std;
 using json = nlohmann::json;
 
-using namespace std;
 class User {
-protected:
+public:
     int id;
     string name;
     string password;
-public:
+
+    User(int id, const string name,const string password);
     json toJSON();
     static User fromJSON(const json& j);
-    static json loadUsers();  // Read users.json
-    static void saveUsers(const json& j); // Write to users.json
-    User(int id, string name,string password);
-    virtual void signup();
-    virtual void login();
-    virtual void logout();
+    static json loadUsers();
+    static void saveUsers(const json& users);
+    void signup();
+    void login();
+    void logout();
     bool userExist(int id);
 };
-
-
